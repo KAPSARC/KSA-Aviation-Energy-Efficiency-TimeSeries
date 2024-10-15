@@ -1,10 +1,11 @@
 # KSA-Aviation-Energy-Efficiency-TimeSeries
+# Overview
 This repository contains the input data, R codes and results of the model developed in the paper "A dynamic fleet model of U.S light-duty vehicle lightweighting and associated greenhouse gas emissions from 2016-2050" submitted to Environmental Science and Technology (vol. X issue. X year. X) by Alexandre Milovanoffa, Hyung Chul Kimb, Robert De Kleineb, Timothy J. Wallingtonb, I. Daniel Posena, Heather L. MacLeana,c.
 a Department of Civil & Mineral Engineering, University of Toronto, 35 St. George Street, Toronto, Ontario, M5S 1A4 Canada
 b Materials & Manufacturing R&A Department, Ford Motor Company, Dearborn, Michigan 48121-2053, United States
 c Department of Chemical Engineering & Applied Chemistry, University of Toronto, 200 College Street, Toronto, Ontario, M5S 3E5 Canada
 
-# Overview
+# Content
 The repository comprises 5 folders.
 
 architecture: Contains some codes to create the model architecture. Compiles the list of inputs files, of interdependencies between the functions (i.e., how are the functions linked?) and define the set of attribute inputs to the functions.
@@ -36,4 +37,7 @@ Simulate the chunk of interests by clicking on the play button at the right of t
 Guzman, Andres Felipe, Juan Nicolas Gonzalez, and Abdulrahman Alwosheel. “Energy Efficiency Trends in Saudi Arabian Commercial Aviation before and after COVID-19.” Transportation Research Interdisciplinary Perspectives 26, no. June (2024): 101170. https://doi.org/10.1016/j.trip.2024.101170.
 
 Guzman, Andres Felipe, Juan Nicolas Gonzalez, and Abdulrahman Alwosheel. “Fuel Efficiency in Saudi Arabia’s Aviation Sector: Progress and Future Implications.” Riyadh, Saudi Arabia, July 25, 2023. https://doi.org/10.30573/KS--2023-DP16.
+
+# Citing Paper
+
 
