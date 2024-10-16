@@ -8,8 +8,8 @@ This project analyzes energy efficiency trends in Saudi Arabia's aviation sector
  - The analysis delves into how the pandemic affected flight frequencies, passenger loads, aircraft utilization, and energy efficiency. Significant fluctuations in energy efficiency were observed during the pandemic, where reduced flight loads often led to lower (pax-km)/BOE values due to underutilized aircraft.
 
 **2. Time Series Modeling:**
- - Time series models are used to predict future trends and assess the impact of disruptions, such as the COVID-19 pandemic, on aviation energy efficiency.
- - Forecasting models include Prophet, SARIMA, TBATS, and STLM, among others, chosen based on their accuracy across different flights departing from selected airports.
+ - Time series models that effectively describe historical variations in energy efficiency are used to predict future trends and assess the impact of disruptions, such as the COVID-19 pandemic, on aviation energy efficiency.
+ - Forecasting time series models include Prophet, SARIMA, TBATS, and STLM, among others, chosen based on their accuracy across different flights departing from selected airports during the period 2017 to 2019.
 
 **3. Data Insights:**
  - The project evaluates the seasonality of travel demand, highlighting peaks due to religious tourism and seasonal travel.
