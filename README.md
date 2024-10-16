@@ -1,6 +1,6 @@
 # KSA-Aviation-Energy-Efficiency-TimeSeries
 
-This project analyzes fuel efficiency trends in the aviation sector of Saudi Arabia from 2017 to 2021, with a focus on both domestic and international flights. The research assesses energy efficiency in terms of fuel consumption per passenger-kilometer traveled, across 20 airports in Saudi Arabia. By exploring the data through time series analysis, the project aims to understand the impact of fuel consumption, air traffic patterns, and the COVID-19 pandemic on fuel efficiency.
+This project analyzes energy efficiency trends in Saudi Arabia's aviation sector from 2017 to 2021, focusing on both domestic and international flights departing from the Kingdom. The research assesses energy efficiency in terms of fuel consumption per passenger-kilometer traveled, across 20 airports in Saudi Arabia. By exploring the data through time series analysis, the project aims to understand the impact of fuel consumption, air traffic patterns, and the COVID-19 pandemic on energy efficiency.
 
 ## Key Features:
 **1. Energy Efficiency Assessment:**
