@@ -12,8 +12,8 @@ This project analyzes energy efficiency trends in Saudi Arabia's aviation sector
  - Forecasting time series models include Prophet, SARIMA, TBATS, and STLM, among others, chosen based on their accuracy across different flights departing from selected airports during the period 2017 to 2019.
 
 **3. Data Insights:**
- - The project evaluates the seasonality of travel demand, highlighting peaks due to religious tourism and seasonal travel.
- - The analysis includes a comparison of the pre-pandemic and pandemic periods to determine how aviation fuel efficiency was affected by flight restrictions and changes in air traffic patterns.
+ - The project evaluates the seasonality of travel demand, highlighting peaks driven by religious tourism and other seasonal travel patterns, which are reflected in varying energy efficiency values.
+ - The analysis includes a comparison of the pre-pandemic and pandemic periods to determine how aviation energy efficiency was affected by management measures, such as flight restrictions and changes in air traffic patterns.
 
 **4. Visualization:**
  - Visualizations of actual and forecasted energy efficiency trends are generated for each airport, showing fluctuations and identifying patterns.
