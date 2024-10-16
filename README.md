@@ -9,11 +9,14 @@ This project analyzes energy efficiency trends in Saudi Arabia's aviation sector
 
 **2. Time Series Modeling:**
  - Time series models that effectively describe historical variations in energy efficiency are used to predict future trends and assess the impact of disruptions, such as the COVID-19 pandemic, on aviation energy efficiency.
- - Forecasting time series models include Prophet, SARIMA, TBATS, and STLM, among others, chosen based on their accuracy across different flights departing from selected airports during the period 2017 to 2019.
+ - Selected time series models for energy efficiency assessment include Prophet, SARIMA, TBATS, and STLM, among others, chosen based on their accuracy across different flights departing from selected airports during the period 2017 to 2019 (pre-COVID-19 pandemic period)
+ - The forecasting period from 2020 to 2021 (COVID-19 pandemic period) was conducted using the time series models selected during the pre-COVID-19 pandemic period.
+ - By applying these models to the pandemic period, the project aims to analyze how well the models capture shifts in energy efficiency under unprecedented disruptions. 
 
 **3. Data Insights:**
  - The project evaluates the seasonality of travel demand, highlighting peaks driven by religious tourism and other seasonal travel patterns, which are reflected in varying energy efficiency values.
- - The analysis includes a comparison of the pre-pandemic and pandemic periods to determine how aviation energy efficiency was affected by management measures, such as flight restrictions and changes in air traffic patterns.
+ - The analysis includes a comparison of the pre-pandemic and pandemic periods to determine how aviation energy efficiency was affected by management measures, such as flight restrictions, changes in passenger load factors (PLF), lockdowns and curfews, and general changes in air traffic patterns.
+ - This approach provides insights into the impact of pandemic-related flight restrictions and changes in air traffic patterns on energy efficiency, highlighting the robustness of the selected models.
 
 **4. Visualization:**
  - Visualizations of actual and forecasted energy efficiency trends are generated for each airport, showing fluctuations and identifying patterns.
