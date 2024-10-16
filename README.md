@@ -4,12 +4,12 @@ This project analyzes energy efficiency trends in Saudi Arabia's aviation sector
 
 ## Key Features:
 **1. Energy Efficiency Assessment:**
- - The project computes fuel efficiency using the ratio of passenger kilometers (pax-km) to fuel consumption (barrels of oil equivalent - BOE), which provides an indication of how efficiently energy is used in aviation operations.
- - The analysis delves into how the pandemic affected flight frequencies, passenger loads, and energy efficiency. Significant fluctuations in energy efficiency are observed during the pandemic, where reduced flight loads often led to lower RPK/BOE values due to underutilized aircraft.
+ - The project calculates fuel efficiency using the ratio of passenger kilometers (pax-km) to fuel consumption (barrels of oil equivalent - BOE), providing an indication of how efficiently energy is used in aviation operations.
+ - The analysis delves into how the pandemic affected flight frequencies, passenger loads, aircraft utilization, and energy efficiency. Significant fluctuations in energy efficiency were observed during the pandemic, where reduced flight loads often led to lower (pax-km)/BOE values due to underutilized aircraft.
 
 **2. Time Series Modeling:**
- - Time series models are applied to predict future trends and assess the impact of disruptions such as the COVID-19 pandemic on aviation efficiency.
- - Forecasting models include Prophet, SARIMA, TBATS, and STLM, among others, chosen based on their accuracy across different airports.
+ - Time series models are used to predict future trends and assess the impact of disruptions, such as the COVID-19 pandemic, on aviation energy efficiency.
+ - Forecasting models include Prophet, SARIMA, TBATS, and STLM, among others, chosen based on their accuracy across different flights departing from selected airports.
 
 **3. Data Insights:**
  - The project evaluates the seasonality of travel demand, highlighting peaks due to religious tourism and seasonal travel.
