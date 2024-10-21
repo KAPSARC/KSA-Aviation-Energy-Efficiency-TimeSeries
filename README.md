@@ -24,8 +24,8 @@ This work is based on the following sources:
  - This approach provides insights into the impact of pandemic-related flight restrictions and changes in air traffic patterns on energy efficiency, highlighting the robustness of the selected models.
 
 **4. Visualization:**
- - Visualizations of actual and forecasted energy efficiency trends are generated for each airport, showing fluctuations and identifying patterns.
- - The project also presents box plots illustrating the variability of fuel efficiency across airports during different years.
+ - Visualizations of actual and forecasted energy efficiency trends are generated for flights departing from each airport, showing fluctuations and identifying patterns.
+ - The project also presents box plots illustrating the variability of fuel efficiency across flights departing from different airports during different years.
 
 **5. Policy Implications:**
  - The findings provide insights into future policy development, particularly regarding energy conservation and environmental impact within the aviation sector.
