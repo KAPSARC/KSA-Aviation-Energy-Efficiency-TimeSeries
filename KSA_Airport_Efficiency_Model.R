@@ -16,18 +16,18 @@ library("stringr")       # For string manipulation
 
 # Reading in the data from the Excel sheets
 # Domestic flights data for the years 2017 to 2021
-db2017 <- read_excel("Flights_DOM_2017-2021 New.xlsx", sheet = "2017")
-db2018 <- read_excel("Flights_DOM_2017-2021 New.xlsx", sheet = "2018")
-db2019 <- read_excel("Flights_DOM_2017-2021 New.xlsx", sheet = "2019")
-db2020 <- read_excel("Flights_DOM_2017-2021 New.xlsx", sheet = "2020")
-db2021 <- read_excel("Flights_DOM_2017-2021 New.xlsx", sheet = "2021")
+db2017 <- fread("Flights_DOM_2017_New.txt")
+db2018 <- fread("Flights_DOM_2018_New.txt")
+db2019 <- fread("Flights_DOM_2019_New.txt")
+db2020 <- fread("Flights_DOM_2020_New.txt")
+db2021 <- fread("Flights_DOM_2021_New.txt")
 
 # International flights data for the years 2017 to 2021
-ib2017 <- read_excel("Flights_INT_2017-2021 New.xlsx", sheet = "2017")
-ib2018 <- read_excel("Flights_INT_2017-2021 New.xlsx", sheet = "2018")
-ib2019 <- read_excel("Flights_INT_2017-2021 New.xlsx", sheet = "2019")
-ib2020 <- read_excel("Flights_INT_2017-2021 New.xlsx", sheet = "2020")
-ib2021 <- read_excel("Flights_INT_2017-2021 New.xlsx", sheet = "2021")
+ib2017 <- fread("Flights_INT_2017_New.txt")
+ib2018 <- fread("Flights_INT_2018_New.txt")
+ib2019 <- fread("Flights_INT_2019_New.txt")
+ib2020 <- fread("Flights_INT_2020_New.txt")
+ib2021 <- fread("Flights_INT_2021_New.txt")
 
 # Merging (combining) all domestic flights data into a single dataframe (temp1)
 temp1 <- rbind(db2017, db2018, db2019, db2020, db2021)
