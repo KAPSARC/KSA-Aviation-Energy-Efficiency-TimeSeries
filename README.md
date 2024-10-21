@@ -27,7 +27,7 @@ This project analyzes energy efficiency trends in Saudi Arabia's aviation sector
  - The project identifies potential management practices that can improve fuel efficiency, reduce carbon emissions, and enhance sustainability within the aviation industry.
 
 ## How to use the Model
-This repository will not be updated but can be cloned and can serve new research in the field. For additional requirements, please contact andres.guzman@kapsarc.org.
+This repository will not be updated but can be cloned and can serve new research in the field. For additional requirements, please contact andres.guzman@kapsarc.org or juannicolas.gonzalez@kapsarc.org.
 
 ## How to setup the model the first time
 The model was developed using R and RStudio. Install RStudio: https://www.rstudio.com/products/rstudio/. Once R and Rstudio are operationals, opens RStudio, create a new project and sets up the working directory. Download the model from this repository on your local computer and save it inside the project folder.  
@@ -37,11 +37,12 @@ Ensure all the necessary R libraries are installed. To install the necessary lib
 install.packages(c("tidyverse", "lubridate", "forecast", "ggplot2", "data.table", readxl", "forecast", "scales", "astsa", "autoTS", "stringr"))
 ```
 ## Data Sources
-**Flight Data**: The data used for this project includes flight data from domestic and international sources (2017-2021). Due to file size limitations on GitHub, these data files are stored externally. You can download the data from the following links:
-  - [Domestic Flight Data](https://www.dropbox.com/scl/fi/gtudni0xq33ppe2rub6ba/Flights_DOM_2017-2021-New.xlsx?rlkey=juyb19849e8qjgjkr4lq3gz2t&st=lq2xv9a3&dl=0)
-  - [International Flight Data](https://www.dropbox.com/scl/fi/eq55ukbwehq01pjlf4mji/Flights_INT_2017-2021-New.xlsx?rlkey=odaof9fv47eu73kwwxewjttbd&st=wo4ayw6e&dl=0)
+**Flight Data**: The data used for this project includes flight data from domestic and international sources (2017-2021). Due to file size limitations on GitHub, these data files are compressed (.zip). 
+- Flights_DOM_New.zip
+- Flights_INT_2017_2018_New.zip
+- Flights_INT_2019_2021_New.zip
 
-Both files must be saved in the project folder.
+Unzip all files and save it in the project folder.
 
 ## Posible Use Cases
   - **Aviation Authorities:** Understanding fuel efficiency trends can help authorities set policies aimed at improving overall energy efficiency in the aviation sector.
