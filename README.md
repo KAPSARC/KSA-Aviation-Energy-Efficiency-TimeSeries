@@ -48,7 +48,6 @@ install.packages(c("tidyverse", "lubridate", "forecast", "ggplot2", "data.table"
 - Flights_INT_2019_2021_New.zip
 
 Unzip all files and save it in the project folder.
-
 ## Posible Use Cases
   - **Aviation Authorities:** Understanding fuel efficiency trends can help authorities set policies aimed at improving overall energy efficiency in the aviation sector.
   - **Airline Companies:** Insights into fuel consumption per route or airport can help airlines optimize their routes for better fuel efficiency and lower operational costs.
