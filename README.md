@@ -28,8 +28,10 @@ This work is based on the following sources:
  - The project also presents box plots illustrating the variability of fuel efficiency across flights departing from different airports during different years.
 
 **5. Policy Implications:**
- - The findings provide insights into future policy development, particularly regarding energy conservation and environmental impact within the aviation sector.
+ - The findings provide insights into future policy development, particularly on how improving energy efficiency can improve energy conservation and environmental impact within the aviation sector.
  - The project identifies potential management practices that can improve fuel efficiency, reduce carbon emissions, and enhance sustainability within the aviation industry.
+ - For less-trafficked routes, the findings suggest that operational adjustments could yield efficiency gains. Policies aimed at promoting flexible scheduling based on demand (e.g., seasonal or weekday adjustments) can improve fuel consumption and energy efficiency.
+ - Policies can be implemented or encouraged to increase the Passenger Load Factor (PLF) for airlines through discounts or financial incentives on airport fees and services (such as landing fees or fuel taxes) for airlines that maintain a high PLF. Also, airport could prioritize slot allocation to airlines with higher PLF which could contribute to to focus on optimizing flights to avoid flying with empty seats.
 
 ## How to use the Model
 This repository will not be updated but can be cloned and can serve new research in the field. For additional requirements, please contact andres.guzman@kapsarc.org or juannicolas.gonzalez@kapsarc.org.
